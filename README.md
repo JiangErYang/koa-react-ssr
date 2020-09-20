@@ -1,8 +1,8 @@
-# zz.js v2.0 (koa2 + react16 + ssr) 服务端渲染应用开发骨架
+# (koa2 + react16 + ssr) 服务端渲染应用开发骨架
 
 `node10+` `babel7` `react-router5` `webpack4`
 
-## 最清凉（轻量）的 react ssr 应用开发骨架 
+# 轻量的 react ssr 应用开发骨架 
 
 * 上手快速: 都是你熟悉的事物，基于 koa2 react16 ssr 搭建
 * 双模式无缝切换: 支持SSR/CSR两种渲染模式，只需更改配置属性即可，也可以对组件设置按需渲染模式
