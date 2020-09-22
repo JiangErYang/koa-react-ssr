@@ -6,13 +6,8 @@
 
 * 上手快速: 都是你熟悉的事物，基于 koa2 react16 ssr 搭建
 * 双模式无缝切换: 支持SSR/CSR两种渲染模式，只需更改配置属性即可，也可以对组件设置按需渲染模式
-* 路由分治管理: 你写你的路由，我写我的路由，zz 自动合并，不再需要维护整个路由表
+* 路由分治管理: 你写你的路由，我写我的路由
 * 路由动静结合: 支持组件的按需加载设置，A 路由动态吧，B 路由静态
-* 开放: 代码完全开放，纯白盒，完全可以作为个人的 `ssr` 学习参考资源
-
-# 快速上手
-
- 从这里开始你将了解到怎样让 `zz`  在本地快速的跑起来，然后进行实际项目开发。
 
 ## 环境准备
 
@@ -25,13 +20,13 @@ $ node -v
 
 ## 脚手架安装
 
-为了方便我们创建应用和页面，这里提供了一个配套的 `zz-cli` 脚手架。
+为了方便我们创建应用和页面，这里提供了一个配套的 `jey-cli` 脚手架。
 
 先全局安装脚手架。
 
 ```javascript
 
-$ npm i zzjs-cli -g
+$ npm i jey-cli -g
 
 ```
 
@@ -39,7 +34,7 @@ $ npm i zzjs-cli -g
 
 ```
 //初始化项目
-$ zzjs -i
+$ jey -i
 $ <Your Project Name>
 $ cd <Your Project Name>
 $ npm i
@@ -326,20 +321,6 @@ export default class Index extends ZzPageBase{
 
 `this.hasSpaCacheData` 常量 、 表示当前页面内是否有伪 `pwa` 的数据
 
-### 更多 待续....
 
-### Demo 演示（有点丑,别介意）
 
-[http://demo.zz.bigerfe.com](http://demo.zz.bigerfe.com)
 
-### 社区交流
-
-可以加作者微信:`223344386`,备注"进群".
-
-### 作者
-
-笔  名: 前端双月 (zz_jesse)
-
-公众号: 前端技术江湖
-
-![](https://github.com/Bigerfe/koa-react-ssr/blob/v1/docs/imgs/wxgzh.jpg?raw=true)
